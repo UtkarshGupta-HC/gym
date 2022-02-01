@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+<style>
+    body{
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        margin: 0px;
+        padding:0px;
+        background-image: url('images/gym 4.jpg');
+        
+        /* height: 10px;
+        width: 50px; */
+    }
+.left{
+   position: absolute;
+   left: 34px;
+   top: 10px;
+    display: inline-block;
+    color: white;
+    /* border: 2px solid hotpink; */
+}
+
+
+.left img{
+    
+    width: 100px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    color: black;
+    filter: invert(300%);
+}
+
+.mid{
+    width: 40%;
+    margin:  20px auto;
+    display: block;
+   /* border: 2px solid hotpink; */
+}
+.right{
+    position: absolute;
+   right: 34px;
+   top: 20px;
+    display: inline-block;
+    
+    /* border: 2px solid red; */
+}
+.navbar{
+display: inline-block;
+
+}
+.navbar li{
+display: inline-block;
+
+font-size: 25px;
+}
+.navbar li a{
+color: white;
+text-decoration: none;
+
+padding:  34px 25px;
+
+ 
+}
+.navbar li a:hover{
+   
+    text-decoration:underline;
+    color: hotpink;
+    animation:forwards;
+    font-size: 27px;
+}
+ .navbar li a.active{
+     text-decoration:underline;
+     color: hotpink;
+ }
+ .btn{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin: 10px 4px;
+     color: white;
+     background-color: black;
+     padding:  3px 13px;
+ border: 2px solid white;
+ border-radius: 20px;
+ font-size: 16px;
+ cursor: pointer;
+ 
+}
+.btn:hover{
+color: hotpink;
+font-size: 17px;
+
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn a:hover{
+    color: hotpink;
+font-size: 17px;
+}
+
+.container{
+   
+   position: absolute;
+   top: 250px;
+   /* left: 700px; */
+    /* border: 20px solid hotpink; */
+    font-size: 20px;
+    margin: 2px 10px;
+    padding: 10px 10px;
+    width: 33%;
+    border-radius: 20px;
+    width: 20%;
+    display: block;
+    /* background-color: black; */
+}
+.form_group input{
+    display: block;
+    width: 250px;
+    margin: 20px 2px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+.container h1{
+     margin: 10px;
+}
+
+.container button{
+    display: block;
+    width: 40%;
+    margin: 10px 70px auto;
+    /* position: absolute; */
+    
+}
+</style>
+<body>
+    
+    <header class="header">
+        <!-- for logo -->
+        <div class="left">
+            <img src="images/gym logo.png"   >
+            <!-- <div>Akki Fitness</div> -->
+        </div>
+        <!-- for buttons -->
+        
+        <!-- for nav bar -->
+        <div class="mid">
+           
+           
+           <ul class="navbar">
+               <li><a href="#" class="active">Home</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#"  >Facilities</a></li>
+               <li><a href="#">Contact Us</a></li>
+           </ul>
+        </div>
+        <div class="right">
+            
+            <button class="btn"><a href="register.html">Register Now</a></button><button class="btn"><a href="Login_form.html"  >Login</a></button>
+        </div>
+        
+    </header>
+    <div class="container">
+         <h1>Have a Query?</h1>
+         <form action="noaction.php">
+             <div class="form_group">
+                 <input type="text" name=" " placeholder="Enter your Name">
+                 <input type="text" name=" " placeholder="Enter your Email">
+                 <input type="text" name=" " placeholder="Enter your Age">
+                 <input type="text" name=" " placeholder="Enter your Gender">
+             </div>
+             <button class="btn">Submit</button>
+         </form>
+    </div>  
+</body>
+</html>

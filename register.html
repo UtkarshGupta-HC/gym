@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: white;
+
+            margin: 0;
+            padding: 0;
+            background-image: url('images/gym 4.jpg');
+            font-family: 'Bebas Neue', cursive;
+        }
+        .left {
+            position: absolute;
+            display: inline-block;
+            /* border: 2px solid htpink; */
+            left: 34px;
+            top: 10px;
+        }
+        .left img {
+
+            width: 100px;
+            filter: invert(100%);
+        }
+        .txt {
+            /* font-family: 'Baloo Bhaijaan 2', cursive; */
+            position: absolute;
+            left: 15px;
+            top: 100px;
+            font-size: 25px;
+            display: block;
+            width: 15%;
+            /* border: 2px solid hotpink; */
+
+        }
+        .form {
+            position: absolute;
+            top: 250px;
+            /* left: 700px; */
+            /* border: 20px solid hotpink; */
+            font-size: 20px;
+            margin: 2px 10px;
+            padding: 10px;
+            width: 33%;
+            border-radius: 20px;
+            width: 20%;
+            display: block;
+            /* background-color: black; */
+        }
+        .name input {
+            /* background-color: black; */
+            display: block;
+            width: 250px;
+            margin: 20px 2px;
+            padding: 8px 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+        }
+        .btn {
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            margin: 10px 4px;
+            color: white;
+            background-color: black;
+            padding: 5px 0px;
+            border: 2px solid white;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            font-size: 17px;
+            color: hotpink;
+        }
+        .reg {
+            margin: 20px 0;
+            padding: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            font-family: 'Noto Serif', serif;
+        }
+        .reg a {
+            color: hotpink;
+            text-decoration: none;
+            /* font-family: 'Baloo Bhaijaan 2', cursive; */
+            font-family: 'Noto Serif', serif;
+
+
+        }
+        .reg a:hover {
+            font-size: 17px;
+            text-decoration: underline;
+        }
+        .mid {
+            width: 40%;
+            margin: 20px auto;
+            display: block;
+            /* border: 2px solid hotpink; */
+        }
+        .navbar {
+            display: inline-block;
+
+        }
+        .navbar li {
+            display: inline-block;
+
+            font-size: 25px;
+        }
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+
+            padding: 34px 25px;
+
+
+        }
+        .navbar li a:hover {
+
+            text-decoration: underline;
+            color: hotpink;
+            animation: forwards;
+            font-size: 27px;
+        }
+        .form h1 {
+            margin: 10px;
+        }
+
+        .form button {
+            display: block;
+            width: 40%;
+            margin: 10px 70px auto;
+            /* position: absolute; */
+
+        }
+    </style>
+    <body>
+        <header class="head">
+            <div class="left">
+                <img src="images/gym logo.png" alt="">
+            </div>
+            <div class="mid">
+
+
+                <ul class="navbar">
+                    <li>
+                        <a href="gym.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Facilities</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+        </header>
+        <div class="bg_img"></div>
+
+
+        <div class="form">
+            <h1>Login here</h1>
+            <form action="noaction.php">
+                <div class="name">
+                    <input type="text" placeholder="Enter your Name">
+                    <input type="email" placeholder="Enter your Email">
+                    <input type="submit" placeholder="Enter your Mobile no">
+                    <input type="password" placeholder="Enter your Password">
+                </div>
+                <button class="btn">Login</button>
+                <div class="reg">
+                    Already a member?<a href="Login_form.html">Login!</a>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
